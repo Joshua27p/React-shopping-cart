@@ -5,42 +5,42 @@
         "image": "/images/ropa1.jpeg",
         "description": "about dress 1",
         "price": 40,
-        "availableSizes": ["s", "m"]
+        "availableSizes": ["S", "M"]
     },
     {    "_id": "dress2",
         "title": "White shirt",
         "image": "/images/ropa2.jpeg",
         "description": "about dress 1",
         "price": 10,
-        "availableSizes": ["s", "m"]
+        "availableSizes": ["S"]
     },
     {    "_id": "dress3",
         "title": "Palazzo",
         "image": "/images/ropa3.jpeg",
         "description": "about dress 1",
         "price": 20,
-        "availableSizes": ["s", "m"]
+        "availableSizes": ["S"]
     },
     {    "_id": "dress4",
         "title": "casaca jean",
         "image": "/images/ropa4.jpeg",
         "description": "about dress 1",
         "price": 23,
-        "availableSizes": ["s", "m"]
+        "availableSizes": ["S"]
     },
     {    "_id": "dress5",
         "title": "White shirt ",
         "image": "/images/ropa5.jpeg",
         "description": "about dress 1",
         "price": 15,
-        "availableSizes": ["s", "m"]
+        "availableSizes": ["S", "M"]
     },
     {    "_id": "dress6",
         "title": "Buzo trending",
         "image": "/images/ropa6.jpeg",
         "description": "about dress 1",
         "price": 13,
-        "availableSizes": ["s", "m"]
+        "availableSizes": ["S", "M"]
     }
   ]
 }

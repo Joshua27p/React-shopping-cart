@@ -12,12 +12,12 @@ export default class Products extends Component {
                         <li key={product._id}>
                         <div className="product">
                         <a href={"#" + product._id}>
-                            <img src={product.image} atl={product.title}></img>
+                            <img src={product.image} alt={product.title}></img>
                             <p>
                                 {product.title}
                             </p>
                         </a>
-                        <div ClassName="product-price">
+                        <div className="product-price">
                             <div> {formatCurrency(product.price)}</div>
                             <button className="button primary">
                                 Add To Cart
