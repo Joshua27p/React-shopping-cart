@@ -3,7 +3,7 @@
     {    "_id": "dress1",
         "title": "Conjunto cuadritos ",
         "image": "/images/ropa1.jpeg",
-        "description": "about dress 1",
+        "description": "Este conjunto de cuadritos es ideal para la oficina o Home Office, ya que al ser una prenda tan sofisticada y elegante no deja de ser comoda, un producto exclusivo para ti",
         "price": 40,
         "availableSizes": ["S", "M"]
     },
