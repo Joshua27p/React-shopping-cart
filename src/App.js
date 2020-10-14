@@ -1,9 +1,11 @@
 // feature 1
 import React from 'react';
+import { Provider } from 'react-redux';
 import Cart from './components/cart';
 import Filter from './components/filter';
 import Products from './components/Products';
 import data from "./data.json"
+import store from "./store"
  
 
 class App extends React.Component {
@@ -81,6 +83,7 @@ filterProducts = (event) => {
 }
   render() {
   return (
+    <Provider store={store}>
     <div className="grid-container">
       <header>
         <a href="/">React Shopping Cart</a>
@@ -109,6 +112,7 @@ filterProducts = (event) => {
         All right is reserver
       </footer>
     </div>
+    </Provider>
     );
   }
 }
